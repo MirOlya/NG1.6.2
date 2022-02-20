@@ -2,19 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-bage',
-  template: `
-    <p>
-      bage works!
-    </p>
-  `,
-  styles: [
-  ]
+  template: ` <p>bage works!</p> `,
+  styles: [],
 })
 export class BageComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
