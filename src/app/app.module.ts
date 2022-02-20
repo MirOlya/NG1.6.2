@@ -15,12 +15,7 @@ import { RatingModule } from './rating/rating.module';
 // import { IconTooltipComponent } from './icon-tooltip/icon-tooltip.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    // IconTooltipComponent,
-    CardProductComponent,
-    // DropDownListComponent,
-  ],
+  declarations: [AppComponent, CardProductComponent],
   imports: [
     BrowserModule,
     CardProductModule,
